@@ -2,8 +2,16 @@
 
 ## Zadani
 Vytvorte tridu Kalkulacka, ktera nam bude slouzit pro scitani/odcitani/deleni/nasobeni dvou cisel.
-Objekt bude mit tri atributy: private double cislo1, private double cislo2, private double vysledek.
-Konstruktor bude obsahovat dva parametry: double _cislo1, double _cislo2. V tele konstruktoru je nastavte do promennych vasi tridy.
+
+Objekt bude mit tri atributy:
+- private double __cislo1__
+- private double __cislo2__
+- private double __vysledek__
+
+Konstruktor bude obsahovat dva parametry:
+- double ___cislo1__
+- double ___cislo2__
+V tele konstruktoru je nastavte do promennych vasi tridy.
 
 __Do tridy pridejte 5 metod:__
 ### public double soucet()
