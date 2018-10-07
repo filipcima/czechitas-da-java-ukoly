@@ -15,22 +15,23 @@ V tele konstruktoru je nastavte do promennych vasi tridy.
 
 __Do tridy pridejte 5 metod:__
 ### public double soucet()
-- v teto metode sectete dve cisla, vysledek ulozte do promenne vysledek a vratte jejich vysledek.
+- V teto metode sectete dve cisla, vysledek ulozte do promenne vysledek.
 ### public double odcitani()
-- v teto metode odectete dve cisla, vysledek ulozte do promenne vysledek a vratte jejich vysledek.
+- Odectete dve cisla, vysledek ulozte do promenne vysledek.
 ### public double nasobeni()
-- v teto metode... (viz. vyse)
+- V teto metode... (viz. vyse)
 ### public double deleni()
-- vratte vysledek deleni dvou cisel, vysledek ulozte do promenne vysledek, ale pozor na deleni nulou! Osetrete podminkou - pokud nekdo bude chtit delit nulou, vypiste do konzole "Delit nulou nelze!" a vratte 0.
-### public void vypisVysledek()
-- tahle metoda bude vypisovat neco ve stylu "3 + 3 = 6".
+- Vysledek ulozte do promenne vysledek, ale pozor na deleni nulou! Osetrete podminkou - pokud nekdo bude chtit delit nulou, vypiste do konzole "Delit nulou nelze!".
+### public double vratVysledek()
+- Tahle metoda pouze vrati vysledek z promenne vysledek.
+- Zkuste zapremyslet, co se asi stane, kdyz zavolate tuto metodu predtim nez provedete jednu z operaci (soucet, deleni, nasobeni, odcitani).
 
 ## Funkcionalita
 ```java
 public static void main() {
 	Kalkulacka kalkulacka = new Kalkulacka(3, 5);
 	double soucet = kalkulacka.soucet(); // soucet = 8
-	kalkulacka.vypisVysledek(); // "3 + 5 = 8"
+	double vysledek = kalkulacka.vratVysledek(); // vysledek = 8
 }
 ```
 ## Napad na rozsireni
