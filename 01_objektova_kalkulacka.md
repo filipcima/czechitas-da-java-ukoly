@@ -35,4 +35,13 @@ public static void main() {
 }
 ```
 ## Napad na rozsireni
-V metode main nacitejte hodnoty v cyklu jako u prvniho ukolu Stepana.
+1) V metode main nacitejte hodnoty v cyklu jako u prvniho ukolu Stepana.
+2) Pretizte nebo upravte metodu vratVysledek tak, aby prijimala jeden argument String __oprace__ a na zaklade toho se rozhodne, ktera operace se zavola.
+```java
+public static void main() {
+	Kalkulacka kalkulacka = new Kalkulacka(2, 4);
+	double vysledek = kalkulacka.vratVysledek("*"); // vysledek = 8
+	vysledek = kalkulacka.vratVysledek("-") // vysledek = -2
+}
+```
+Pro rozpoznani operace pouzijte podminky a `operace.equals("-")`.
