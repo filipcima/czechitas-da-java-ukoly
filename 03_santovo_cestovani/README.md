@@ -25,4 +25,4 @@ int smer = 0;
 Jestli vás mate, že je směr číslo, tak nemusí. Představte si, že když je směr 0 sever a v instrukci máte písmeno L - otočíme se na západ. Směr bude -1. Pokud se poté otočíme zase doleva, bude to -2. Pokud bychom takhle pokračovali i dále, mohli bychom se dostat do situace, kde směr bude třeba -40. To nechceme. Zkuste se podívat na operátor modulo - zbytek po dělení (%).
 
 ## Řešení
-Číslo __298__ je správná odpověď. Spolu se Santou si můžete cestu zkrátit. 
+Číslo __298__ je správná odpověď. 
