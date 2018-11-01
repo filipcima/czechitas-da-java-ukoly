@@ -14,4 +14,4 @@ Ve složce máte k dispozici soubor, kde jsou uloženy __přístupové fráze__ 
 2) Jak detekovat duplicity v rámci řádků?
 
 ## Výsledek pro kontrolu
-Soubor __phrases.txt__ obsahuje 455 duplicit.
+Soubor __phrases.txt__ obsahuje 455 nevalidních přístupových frází.
