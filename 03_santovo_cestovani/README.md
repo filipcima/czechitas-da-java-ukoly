@@ -13,7 +13,6 @@ Ve složce máte k dispozici soubor __instrukce.txt__, ktery si načtete a budet
 - `R5, L5, R5, R3` - vychozí směr: __sever__. Otočíme se doprava, ujedeme 5 bloků rovně. Otočíme se doleva, popojedeme o 5 bloků rovně. Otočíme se doprava, ujedeme opět 5 bloků. V poslední řadě se otočíme doprava a ujedeme tři bloky. Jaká je nejkratší vzdálenost z vychozího bodu do cíle? Správná odpověď je 12. __Opět zkuste nakreslit, abyste to lépe pochopily.__
 
 ## Jak na to?
-Doporučil bych vytvořit si proměnné:
 - Základem je __zparsovat__ soubor: Vytvořil bych si ArrayList nebo pole stringů, kde prvkem bude instrukce např `"L2"`.
 - Pak bych procházel pole nebo ArrayList a podle toho, kterym směrem jsme otočení, na té ose se posuneme buď do kladnych, nebo zapornych cisel
 - Hodit se budou proměnné:
