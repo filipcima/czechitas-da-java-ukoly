@@ -15,3 +15,9 @@ Ve složce máte k dispozici soubor, kde jsou uloženy __přístupové fráze__ 
 
 ## Výsledek pro kontrolu
 Soubor __phrases.txt__ obsahuje 57 nevalidních přístupových frází.
+
+## Rozšíření
+Šéf si vymyslel, že zabezpečení není dostatečné. Chtěl by, aby mezi nevalidní fráze spadaly i takové, které obsahují slova se stejnými písmeny. 
+
+Např. `abec cab cbae` není validní, protože abec a cbae obsahují stejná písmena. 
+Kdežto `abec cab cbaec` už validní je, protože ze slova `abec` různým prohozením písmen slovo `cbaec` neposkládáme.
