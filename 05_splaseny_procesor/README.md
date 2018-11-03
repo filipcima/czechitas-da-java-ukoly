@@ -34,7 +34,7 @@ Opustit bludiště zabralo __5 skoků__.
 
 ## Jak na to?
 - Napište si algoritmus (třeba na papír), kde si "odkrokujete" program.
-- Jedno z mnoha řešení je nekonečný cyklus a kód obalit `try/catch` blokem. Důležité je odchytávat výjimku `IndexOutOfBoundsException`, protože výjimka nastane právě tehdy, když opustíme bludiště. Když výjimka nastane, breakneme cyklus a počet kroků je na světe.
+- Jedno z mnoha řešení je nekonečný cyklus a kód obalit `try/catch` blokem. Důležité je odchytávat výjimku `IndexOutOfBoundsException`, protože výjimka nastane právě tehdy, když opustíme bludiště. Když nastane, breakneme cyklus a počet kroků je na světe.
 
 ## Výsledek
 Opustit poněkud větší bludiště ze zadání zabere __360603 skoků__.
