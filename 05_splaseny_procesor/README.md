@@ -18,8 +18,8 @@ Pro ilustraci vezměme v potaz následující seznam "offsetů":
  1
 -3
 ```
-- Kladná čísla: posunutí "vpřed"
-- Záporná čísla: posunutí "vzad"
+- Kladná čísla: __posunutí "vpřed"__
+- Záporná čísla: __posunutí "vzad"__
 
 Pro přehlednost si čísla dáme do řádku a v závorkách bude číslo, na kterém se právě nacházíme.
 
@@ -30,7 +30,11 @@ Pro přehlednost si čísla dáme do řádku a v závorkách bude číslo, na kt
 - `__2_(4)_0__1__-2__`- __skok o -3__? to je tam, kde jsme právě byli! z -3 je rázem -2
 - `__2__5__0__1__-2__`- __skok o 4 vpřed__ - jsme venku!
 
-Opustit bludiště zabralo 5 skoků.
+Opustit bludiště zabralo __5 skoků__.
+
+## Jak na to?
+- Napište si algoritmus (třeba na papír), kde si "odkrokujete" program.
+- Jedno z mnoha řešení je nekonečný cyklus a kód obalit `try/catch` blokem. Důležité je odchytávat výjimku `IndexOutOfBoundsException`, protože výjimka nastane právě tehdy, když opustíme bludiště. Když výjimka nastane, breakneme cyklus a počet kroků je na světe.
 
 ## Výsledek
 Opustit poněkud větší bludiště ze zadání zabere __360603 skoků__.
