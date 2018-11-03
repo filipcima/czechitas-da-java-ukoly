@@ -23,12 +23,12 @@ Pro ilustraci vezměme v potaz následující seznam "offsetů":
 
 Pro přehlednost si čísla dáme do řádku a v závorkách bude číslo, na kterém se právě nacházíme.
 
--` (0) 3  0  1  -3 `- výchozí stav - ještě jsme neudělali ani jeden skok
--` (1) 3  0  1  -3  `- skok s offsetem 0 - (skočíme na místě) - naštěstí, offset se inkrementoval o jedničku
--`  2 (3) 0  1  -3  `- skok vpřed o 1 - ale musíme inkrementovat číslo, ze kterého jsme skákali
--`  2  4  0  1 (-3) `- skok o 3 znamená posun až na konec a za sebou necháme číslo 4
--`  2 (4) 0  1  -2  `- skok o -3? to je tam, kde jsme právě byli! z -3 je rázem -2
--`  2  5  0  1  -2  `- skok o 4 vpřed - jsme venku!
+- ` (0) 3  0  1  -3 `- výchozí stav - ještě jsme neudělali ani jeden skok
+- ` (1) 3  0  1  -3  `- skok s offsetem 0 - (skočíme na místě) - naštěstí, offset se inkrementoval o jedničku
+- `  2 (3) 0  1  -3  `- skok vpřed o 1 - ale musíme inkrementovat číslo, ze kterého jsme skákali
+- `  2  4  0  1 (-3) `- skok o 3 znamená posun až na konec a za sebou necháme číslo 4
+- `  2 (4) 0  1  -2  `- skok o -3? to je tam, kde jsme právě byli! z -3 je rázem -2
+- `  2  5  0  1  -2  `- skok o 4 vpřed - jsme venku!
 
 Opustit bludiště zabralo 5 skoků.
 
