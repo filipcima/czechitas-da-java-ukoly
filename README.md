@@ -5,3 +5,4 @@
 3) __Santovo cestování__ - STŘEDNÍ/TĚŽKÉ
 4) __Zabezpečovací systém__ - STŘEDNÍ
 5) __Splašený procesor__ - STŘEDNÍ
+6) __Most z konektorů__ - TĚŽKÉ
